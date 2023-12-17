@@ -1,0 +1,15 @@
+# VS Code
+*.code-workspace
+.vscode/
+
+# Rubbish/Junk
+__pycache__/
+*.pyc
+
+# Project
+db.sqlite3
+
+# Custom
+dev_*
+junk_*
+sh_*
