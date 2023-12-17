@@ -5,7 +5,7 @@ from django.db import models
 class Booking(models.Model):
     name = models.CharField(max_length=255)
     no_of_guests = models.IntegerField()
-    booking_date = models.DateTimeField(auto_now=False, auto_now_add=False)
+    booking_date = models.DateField(auto_now=False)
 
 
 class Menu(models.Model):
