@@ -1,3 +1,0 @@
-Username    Password            Token (Local database)
-superuser   su1234567890
-user_1      user_1_1234567890

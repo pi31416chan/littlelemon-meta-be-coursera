@@ -27,6 +27,5 @@ urlpatterns = [
     path("auth/", include("djoser.urls.authtoken")),
     path("api-token-auth/", obtain_auth_token),
     path("restaurant/", include("restaurant.urls")),
-    path("restaurant/menu/", include("restaurant.urls")),
     path("restaurant/booking/", include(booking_router.urls)),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
